@@ -1,21 +1,32 @@
-body{
+/*-------------------------------- Body Part ------------------------*/
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+/*------------------------------------ Main Part -----------------------------*/
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/*-----------------------Nav Bar Start---------------- */
+nav{
+    display: flex;
+    
 }
 nav p{
     font-size: 24px;
     color: #3A3A3A;
     font-weight: 700;
     margin-top: 87px;
-    margin-left: 120px;
    
 }
 nav ul{
     list-style: none;
     display: flex;
-    margin-left: 950px;
+    height: 36px;
+    margin-left: 657px;
     margin-top: 95px;
-    margin-right: 120px;
     
 }
 nav a{
@@ -26,75 +37,204 @@ nav a{
     margin-right: 34px;
     
 }
-nav{
-    display: flex;
-    
-}
-.photogrphy-start{
+/*-----------------------Nav Bar End---------------- */
+
+/*------------------Photography Journey Start --------------- */
+.photography-starting {
     display: flex;
     width: 100%;
-    margin-left: 120px;
 }
-.influencer{
-    margin-top: 285px;
-    
+.starting-left {
+    width: 60%;
 }
-.main-camera img{
-    width: 90%;
+.starting-left h1 {
+    color: #3A3A3A;
+    font-size:52px ;
+    line-height: 70px;
+    font-weight: 700 ;
+    margin-bottom: 0px;
 }
-.main-camera{
-    width: 440px;
-    height: 414px;
-    margin-left: 835px;
-    margin-top: 211px;
-    margin-right: 165px;
+.starting-left p {
+    margin-top: 16px;
+}
+.camera-right {
+    width: 40%;
+}
+.camera-right img {
+width: 440px;
+height: 414px;
+left: 835px;
+top: 211px;
+}
+.camera-right:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    transform-origin: center 50%;
+    background-color: coral;
 
 }
-.start{
-    width: 582px;
-    height: 133px;
-   
-}
-.start h1{
-    color:#3A3A3A;
-    font-size: 52px;
-    line-height: 70px;
-    font-weight: 700;
-    padding: 0px;
-}
-.people{
-    width: 505px;
-    height: 61px;
-}
-.people p{
-    color:#3A3A3A;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0px;
-}
-.link-button{
-    display: flex;
-    width: 196px;
-    height: 44px;
-    left: 120px;
-    top: 511px;
+
+#button-prebook{
+    border-radius: 41px;
     background-color: #E02C6D;
-    border-radius: 21px;
-}
-.link-text {
-    
-    padding-top: 10px;
-    padding-left: 30px;
-}
-.link-text a{
-    color: #FFFFFF;
     text-decoration: none;
+    color: white;
+    padding: 10px 24px;
 }
-.arrow-font{
-    color: #FFFFFF;
-    padding-left: 10px;
-    padding-top: 12px;
-    font-size: 15px;
+
+/*------------------Photography Journey End --------------- */
+
+/*----------------------- International Companies Logo Section Start ------------------------------------ */
+
+.logo-breakpoint{
+    margin-right: 165px;
+    margin-left: 165px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 165px;
+    margin-left: 165px;
     
 }
+.logos img {
+    padding-top: 36px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 34px;
+ }
+
+ /*----------------------- International Companies Logo Section End ------------------------------------ */
+
+ /*-----------------------Items Section Start-------------------- */
+
+ .popular-content h2 {
+     text-align: center;
+     color: #3A3A3A;
+     font-weight: 600;
+     font-style: normal;
+     font-size: 29px;
+     line-height: 70px;
+ }
+ .item-container {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 30px;
+     margin-left: 150px;
+    margin-right: 150px;
+ }
+ .item-details {
+    width: 240px;
+    height: 310px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    padding: 10px;
+ }
+ .item-details p{
+     margin-top: 5px;
+     color: #787885;
+ }
+ .item-details img {
+    width: 240px;
+    height: 200px;
+ }
+ .item-tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+ }
+ .item-details h3 {
+     margin: 0px;
+     color: #18191F;
+ }
+ .price {
+     margin: 0px;
+     padding: 0px;
+     color:  
+ }
+ .fa-star{
+     color: #FB8200;
+ }
+ span{
+    color: #5E6366;
+    
+ }
+ .see-more {
+    text-align: right;
+    color: #E02C6D ;
+    font-weight: bold;
+    
+ }
+ 
+  /*-----------------------Items SectionEnd-------------------- */
+
+  /*---------------------------------------- Extra Section Start ------------------------*/
+form {
+    
+    border: 4px solid rgb(199, 193, 193);
+    margin-bottom: 15px;
+  }
+  
+  .box {
+    padding: 20px;
+    background-color: silver;
+    border-radius: 2px;
+  }
+  
+
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  /*---------------------------------------- Extra Section End ------------------------*/
+
+ /*-----------------------Footer Section Start--------------------- */
+
+ .footer-div {
+     width: 100%;
+     height: 230px;
+     background-color:  #0A0826;
+     text-align: center;
+     padding: 30px;
+ }
+ .footer-div  h2 {
+  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+ }
+ .footer-div p {
+     color: white;
+     margin-top: 3px;
+ }
+ .footer-div i {
+     color: white;
+     font-size: 32px;
+     padding-right: 16px;
+ }
+ /*-----------------------Footer Section End--------------------- */
