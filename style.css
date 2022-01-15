@@ -61,10 +61,10 @@ nav a{
     width: 40%;
 }
 .camera-right img {
-width: 440px;
-height: 414px;
-left: 835px;
-top: 211px;
+    width: 440px;
+    height: 414px;
+    left: 835px;
+    top: 211px;
 }
 .camera-right:hover{
     transform: scale(1.2);
