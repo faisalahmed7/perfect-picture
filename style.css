@@ -7,7 +7,7 @@ nav p{
     color: #3A3A3A;
     font-weight: 700;
     margin-top: 87px;
-    margin-left: 240px;
+    margin-left: 120px;
    
 }
 nav ul{
@@ -32,14 +32,15 @@ nav{
 }
 .photogrphy-start{
     display: flex;
+    width: 100%;
 }
 .influencer{
-margin-top: 285px;
-margin-left: 240px;
+    margin-top: 285px;
+    margin-left: 120px;
 }
 .main-camera{
     margin-top: 211px;
-    margin-left: 630px;
+    margin-left: 650px;
     margin-right: 370px;
 
 }
@@ -89,5 +90,5 @@ margin-left: 240px;
     padding-left: 10px;
     padding-top: 12px;
     font-size: 15px;
-    font-weight: 300;
+    
 }
