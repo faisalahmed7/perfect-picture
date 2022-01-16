@@ -258,6 +258,25 @@ form {
         width: 100%;
     }
 
-    
+    .photography-starting{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+   .starting-left{
+       margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+   .camera-right{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    flex-direction: column;  
+
+   }
      
  }
